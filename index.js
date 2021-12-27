@@ -14,7 +14,7 @@ function calcX(){
                 }
                 document.getElementById("answer").innerHTML=ans;
             }
-function calcX(){
+function clear(){
             ans=" ";
                             document.getElementById("answer").innerHTML=ans;
 }
