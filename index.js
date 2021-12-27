@@ -14,10 +14,7 @@ function calcX(){
                 }
                 document.getElementById("answer").innerHTML=ans;
             }
-function clear(){
-            ans=" ";
-                            document.getElementById("answer").innerHTML=ans;
-}
+
            function calcY()
             {
             	 var p = parseInt(document.myform2.P.value);
