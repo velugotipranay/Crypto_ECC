@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto ECC</title>
+    <script type="text/javascript" src="index.js">
+    </script>
+</head>
+<body>
+    <h1 id="top">This is for X values</h1><br><br>
+    <form name="myform" >
+        <label for="A">Enter value of a</label>
+        <input type="number" name="A" id="A"  placeholder="enter a"><br><br><br>
+        <label for="B">Enter value of b</label>
+        <input type="number" name="B" id="B" placeholder="enter b"><br><br><br>
+        <label for="P">Enter value of p</label>
+        <input type="number" name="P" id="P" placeholder="enter p"><br><br>
+        <input type="button" onclick="calcX()" value="Calculate X values"></button>
+        <p id="answer" background-color="skyblue"></p> 
+        <br>
+        <br>
+    </form><br><br><br>
+    <h1 id="top">This is for Y values</h1><br><br>
+    <form name="myform2">
+        <input type="number" name="P" id="P" placeholder="enter p"><br><br>
+        <input type="button" onclick="calcY()" value="Calculate Y values"></button>
+        <p id="y_values" background-color="skyblue"></p> 
+        <br>
+        <br>
+    </form><br><br><br>
+</body>
+</html>
